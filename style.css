@@ -4,4 +4,51 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  background-color: lavender;
+}
+
+img {
+  display: block;
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  right: 1%;
+  height: 60vh;
+  z-index: -1;
+}
+
+.form {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form select {
+  text-align: center;
+}
+
+.output {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  bottom: 45vh;
+}
+
+.output p {
+  margin: 0 20px;
+}
 /*# sourceMappingURL=style.css.map */
