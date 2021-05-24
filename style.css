@@ -6,6 +6,7 @@
 }
 
 body {
+  font-family: 'Karla', sans-serif;
   background-color: lavender;
 }
 
@@ -34,6 +35,7 @@ img {
 
 .form select {
   text-align: center;
+  margin: 10px;
 }
 
 .output {
@@ -49,6 +51,6 @@ img {
 }
 
 .output p {
-  margin: 0 20px;
+  margin: 0 40px;
 }
 /*# sourceMappingURL=style.css.map */

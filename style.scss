@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: 'Karla', sans-serif;
   background-color: lavender;
 }
 
@@ -26,6 +27,7 @@ img {
 
   select {
     text-align: center;
+    margin: 10px;
   }
 }
 
@@ -36,6 +38,6 @@ img {
   justify-content: center;
   bottom: 45vh;
   p {
-    margin: 0 20px;
+    margin: 0 40px;
   }
 }
