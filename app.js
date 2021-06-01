@@ -13,12 +13,12 @@ btn.addEventListener("click", function () {
       "&units=metric&appid=" +
       API
   )
-    .then((smth) => smth.json())
-    .then((lol) => {
-      console.log(lol);
-      weather.innerHTML = lol['weather'][0]['main'];
-      temperature.innerHTML = Math.floor(lol['main']['temp']) + "°C";
-      humidity.innerHTML = lol['main']['humidity'] + "RH";
+    .then((response) => response.json())
+    .then((data) => {
+      // console.log(data);
+      weather.innerHTML = data['weather'][0]['main'];
+      temperature.innerHTML = Math.floor(data['main']['temp']) + "°C";
+      humidity.innerHTML = data['main']['humidity'] + "RH";
     });
 
 });
