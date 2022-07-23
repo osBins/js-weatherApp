@@ -3,7 +3,7 @@ let weather = document.querySelector(".weather");
 let temperature = document.querySelector(".temp");
 let humidity = document.querySelector(".humidity");
 let btn = document.querySelector("#button");
-let API = "695aba4ce78f3ca31491bdfb1e9f6b1e";
+let API = "API_KEY HERE";
 
 btn.addEventListener("click", function () {
   // console.log("Clicked");
